@@ -8,20 +8,20 @@ const DUMMMY_EXPENSES = [
     id: "e1",
     title: "Festival Tickets",
     amount: 294.67,
-    date: new Date(2022, 9, 27),
+    date: new Date(2022, 0, 27),
   },
   {
     id: "e2",
     title: "Car Insurance",
     amount: 88,
-    date: new Date(2021, 9, 27),
+    date: new Date(2021, 1, 27),
   },
 
   {
     id: "e3",
     title: "Rent",
     amount: 3330,
-    date: new Date(2020, 9, 27),
+    date: new Date(2020, 4, 27),
   },
   {
     id: "e4",
