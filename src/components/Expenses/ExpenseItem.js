@@ -16,6 +16,7 @@ console.log("ExpenseItem evaluated by React")
   
 
   return (
+    <li>
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
       <div className="expense-item__description">
@@ -24,6 +25,7 @@ console.log("ExpenseItem evaluated by React")
       </div>
       <button onClick={clickHandler}>Change Title</button>
     </Card>
+    </li>
   );
 }
 
